@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 600px) and (max-width: 1250px) {
+@media screen and (min-width: 200px) and (max-width: 1250px) {
     .cartaz{
         width: 60%;
     }

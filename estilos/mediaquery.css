@@ -59,9 +59,19 @@
 }
 @media screen and (min-width: 1251px) and (max-width:1500px){
     p{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .titulo-2{
         font-size: 1.5em;
+    }
+    .generos{
+        font-size: 0.9em;
+    }
+    .elenco{
+        font-size: 0.9em;
+    }
+    .imagem{
+        width: 20%;
+        height: 70%;
     }
 }

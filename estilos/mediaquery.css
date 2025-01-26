@@ -1,27 +1,40 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 600px) and (max-width: 1250px) {
+    .cartaz{
+        width: 60%;
+    }
+    .part1{
+        height: 50%;
+    }
     p{
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
     .titulo-2{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     .imagem{
-        height: 40%;
-        width: 40%;
+        height: 35%;
+        width: 25%;
         float: none;
     }
     .classificacao{
-        height: 40%;
-        width: 35%;
+        height: 25%;
+        width: 20%;
+    }
+    .generos{
+        font-size: 0.8em;
+    }
+    .elenco{
+        font-size: 0.8em;
     }
     .resumo{
         padding-left: 5%;
         padding-right: 5%;
+        font-size: 0.8em;
     }
     h4{
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
     ul{
         width: 60%;
@@ -33,12 +46,12 @@
 }
 @media screen and (max-width: 880px) {
     p{
-        font-size: 0.95em;
+        font-size: 0.9em;
     }
 }
 @media screen and (min-width: 901px) and (max-width:1250px){
     p{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .imagem{
         width: 30%;
@@ -46,9 +59,9 @@
 }
 @media screen and (min-width: 1251px) and (max-width:1500px){
     p{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .titulo-2{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 }

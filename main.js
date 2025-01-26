@@ -53,13 +53,13 @@ function showFilmes(jsonObj){
 
         const para2 = document.createElement('p');
         para2.classList.add('elenco')
-        para2.textContent = `<strong>Elenco:</strong>${jsonObj[i].elenco.join(', ')}`;
+        para2.textContent = `Elenco:${jsonObj[i].elenco.join(', ')}`;
 
+        div1.appendChild(img);
+        div1.appendChild(classificacao);
+        div1.appendChild(titulo2);
         div1.appendChild(para1);
         div1.appendChild(para2);
-        div1.appendChild(titulo2);
-        div1.appendChild(classificacao);
-        div1.appendChild(img);
         myDiv.appendChild(div1);
 
          // Parte 2 - Resumo e títulos semelhantes
@@ -86,12 +86,12 @@ function showFilmes(jsonObj){
             lista.appendChild(listItem);
         }
 
-        div2.appendChild(lista);
-        div2.appendChild(titulo4);
         div2.appendChild(resumo);
+        div2.appendChild(titulo4);
+        div2.appendChild(lista);
         myDiv.appendChild(div2);
 
-        document.body.appendChild(myDiv);
+        section.appendChild(myDiv);
     }
 }
 // Chama a função para buscar os filmes

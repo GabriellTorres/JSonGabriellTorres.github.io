@@ -65,7 +65,7 @@ section::-webkit-scrollbar-track {
 
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: rgb(65, 65, 65);
     text-align: justify;
     text-indent: 0.8%;
@@ -101,10 +101,12 @@ p{
 }
 .classificacao{
     float: right;
-    width: 20%;
-    height: 50%;
+    width: 10%;
+    height: 30%;
     margin: 0.8%;
     background-color: antiquewhite;
+    text-align: center;
+    
 }
 
 .generos{
@@ -113,6 +115,7 @@ p{
     padding-right: 2%;
     text-indent: 0;
     text-align: left;
+    font-size: 1em;
 }
 
 .elenco{
@@ -121,6 +124,7 @@ p{
     padding-right: 2%;
     text-indent: 0;
     text-align: left;
+    font-size: 1em;
     
 }
 strong{
@@ -128,7 +132,7 @@ strong{
     font-weight: bold;
 }
 .resumo{
-    padding: 2% 4% 2% 4%;
+    padding: 2% 4% 1% 4%;
     text-indent: 12px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.301);
 }
